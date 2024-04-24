@@ -7,5 +7,5 @@ export const metadata: Metadata = {
 export default function ButtonsLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
-  return <div>{children}</div>;
+  return <main className="container mx-auto">{children}</main>;
 }
